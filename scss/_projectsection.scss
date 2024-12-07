@@ -1,0 +1,66 @@
+#projects-section {
+  background-color: $blue-color;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.project {
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: $accent-white-color;
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 22px;
+    color: $white-color;
+    margin-bottom: 15px;
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    button {
+      border: 3px solid;
+      border-radius: 5px;
+      font-weight: 700;
+      font-size: 16px;
+
+      &:nth-child(1) {
+        padding: 5px 20px;
+        background-color: $accent-white-color;
+        border-color: $accent-white-color;
+        color: $gray-color;
+
+        &:hover {
+          background-color: transparent;
+          color: $accent-white-color;
+        }
+      }
+
+      &:nth-child(2) {
+        padding: 5px 10px;
+        background-color: transparent;
+        border-color: $accent-white-color;
+        color: $accent-white-color;
+
+        &:hover {
+          background-color: $accent-white-color;
+          color: $gray-color;
+        }
+      }
+    }
+
+  }
+}

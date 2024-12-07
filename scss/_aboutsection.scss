@@ -1,0 +1,15 @@
+#about-section {
+  .icon-set {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    color: $gray-color;
+    text-align: center;
+    line-height: 31px;
+    margin: 35px 0;
+  }
+}

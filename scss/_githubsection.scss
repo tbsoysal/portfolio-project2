@@ -1,0 +1,27 @@
+#github-section {
+  text-align: center;
+
+  h5 {
+    font-weight: 300;
+    font-size: 32px;
+    color: $gray-color;
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  #actionBtn {
+    font-weight: 500;
+    font-size: 24px;
+    color: $accent-white-color;
+    background-color: $blue-color;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 5px;
+  }
+}
