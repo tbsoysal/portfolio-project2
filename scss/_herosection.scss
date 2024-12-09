@@ -4,6 +4,10 @@
   .profilepic {
     text-align: center;
     margin-bottom: 20px;
+
+    img {
+      max-width: 40vw;
+    }
   }
 
   h1 {
@@ -60,6 +64,7 @@
 }
 
 #darkmodeBtn {
+  width: 36px;
   position: absolute;
   top: 20px;
   right: 30px;

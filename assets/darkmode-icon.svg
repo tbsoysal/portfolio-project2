@@ -1,0 +1,12 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="14.136" width="1.2369" height="5.21264" rx="0.618448" fill="black"/>
+<rect x="24.8898" y="3.79907" width="1.2369" height="5.21264" rx="0.618448" transform="rotate(45 24.8898 3.79907)" fill="black"/>
+<rect x="29.5972" y="14.136" width="1.2369" height="5.21264" rx="0.618448" transform="rotate(90 29.5972 14.136)" fill="black"/>
+<rect x="25.7645" y="24.8015" width="1.2369" height="5.21264" rx="0.618448" transform="rotate(135 25.7645 24.8015)" fill="black"/>
+<rect x="15.3729" y="29.7739" width="1.2369" height="5.21264" rx="0.618448" transform="rotate(180 15.3729 29.7739)" fill="black"/>
+<rect width="1.2369" height="5.21264" rx="0.618448" transform="matrix(-0.707107 0.707107 0.707107 0.707107 4.70734 3.79907)" fill="black"/>
+<rect width="1.2369" height="5.21264" rx="0.618448" transform="matrix(0 1 1 0 0 14.136)" fill="black"/>
+<rect width="1.2369" height="5.21264" rx="0.618448" transform="matrix(0.707107 0.707107 0.707107 -0.707107 3.8327 24.8015)" fill="black"/>
+<circle cx="14.8428" cy="14.8428" r="8.56993" fill="black"/>
+<path d="M14.9311 21.3365V8.52576C20.5502 9.05586 21.4837 13.4881 21.2481 15.6379C20.7534 20.0201 16.8306 21.2628 14.9311 21.3365Z" fill="white"/>
+</svg>
