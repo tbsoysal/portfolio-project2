@@ -1,5 +1,5 @@
 #projects-section {
-  background-color: $blue-color;
+  background-color: var(--projects-color);
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -16,13 +16,13 @@
   h4 {
     font-weight: 400;
     font-size: 16px;
-    color: $accent-white-color;
+    color: #FFF2F2;
   }
 
   h3 {
     font-weight: 500;
     font-size: 22px;
-    color: $white-color;
+    color: white;
     margin-bottom: 15px;
   }
 
@@ -31,7 +31,7 @@
     justify-content: center;
     gap: 10px;
 
-    button {
+    a {
       border: 3px solid;
       border-radius: 5px;
       font-weight: 700;
@@ -39,26 +39,18 @@
 
       &:nth-child(1) {
         padding: 5px 20px;
-        background-color: $accent-white-color;
-        border-color: $accent-white-color;
-        color: $gray-color;
+        background-color: #FFF2F2;
+        border-color: #FFF2F2;
+        color: #3E373B;
 
-        &:hover {
-          background-color: transparent;
-          color: $accent-white-color;
-        }
       }
 
       &:nth-child(2) {
         padding: 5px 10px;
         background-color: transparent;
-        border-color: $accent-white-color;
-        color: $accent-white-color;
+        border-color: #FFF2F2;
+        color: #FFF2F2;
 
-        &:hover {
-          background-color: $accent-white-color;
-          color: $gray-color;
-        }
       }
     }
 

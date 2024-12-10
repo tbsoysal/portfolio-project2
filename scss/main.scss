@@ -1,7 +1,44 @@
-@import 'variables';
-@import 'globals';
-@import 'herosection';
-@import 'aboutsection';
-@import 'projectsection';
-@import 'githubsection';
-@import 'contactsection';
+@use 'herosection';
+@use 'aboutsection';
+@use 'projectsection';
+@use 'githubsection';
+@use 'contactsection';
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+
+:root {
+  --bg-color: #FFFFFF;
+  --primary-color: #7286D3;
+  --header-color: #000000;
+  --paragraph-color: #3E373B;
+  --projects-color: #7286D3;
+}
+
+.dark-mode {
+  --bg-color: #373535;
+  --primary-color: #7286D3;
+  --header-color: #FFFFFF;
+  --paragraph-color: #E0D1D1;
+  --projects-color: #3E373B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section {
+  padding: 60px 30px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
