@@ -68,16 +68,22 @@
   width: 100%;
 }
 
+#about-section {
+  max-width: 700px;
+  margin-inline: auto;
+}
 #about-section .icon-set {
+  max-width: 500px;
+  margin-inline: auto;
   display: flex;
   justify-content: space-around;
 }
 #about-section p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(0.75rem, 5vw, 1.5rem);
   color: var(--paragraph-color);
   text-align: center;
-  line-height: 31px;
+  line-height: 30px;
   margin: 35px 0;
 }
 
@@ -92,17 +98,18 @@
   text-align: center;
 }
 .project img {
-  max-width: 100%;
+  max-width: 600px;
+  width: 100%;
   margin-bottom: 15px;
 }
 .project h4 {
   font-weight: 400;
-  font-size: 16px;
+  font-size: clamp(16px, 5vw, 2rem);
   color: #FFF2F2;
 }
 .project h3 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: clamp(22px, 5vw, 2rem);
   color: white;
   margin-bottom: 15px;
 }
@@ -115,7 +122,7 @@
   border: 3px solid;
   border-radius: 5px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: clamp(16px, 4vw, 2rem);
 }
 .project .buttons-container a:nth-child(1) {
   padding: 5px 20px;
@@ -135,7 +142,7 @@
 }
 #github-section h5 {
   font-weight: 300;
-  font-size: 32px;
+  font-size: clamp(32px, 5vw, 42px);
   color: var(--paragraph-color);
   margin-bottom: 30px;
 }
@@ -143,7 +150,7 @@
   color: var(--paragraph-color);
   margin-top: 10px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: clamp(16px, 2vw, 22px);
   margin-bottom: 30px;
 }
 #github-section img {
@@ -151,9 +158,10 @@
 }
 #github-section #actionBtn {
   width: 50%;
+  max-width: 300px;
   margin-inline: auto;
   font-weight: 500;
-  font-size: 24px;
+  font-size: clamp(1rem, 4vw, 2rem);
   color: white;
   background-color: var(--primary-color);
   padding: 7px 13px;
@@ -163,10 +171,12 @@
 
 #contact-section {
   text-align: center;
+  max-width: 700px;
+  margin-inline: auto;
 }
 #contact-section h5 {
+  font-size: clamp(32px, 5vw, 42px);
   font-weight: 300;
-  font-size: 32px;
   color: var(--paragraph-color);
   margin-bottom: 50px;
 }
