@@ -7,12 +7,12 @@
   margin-bottom: 20px;
 }
 #hero-section .profilepic img {
-  max-width: 40vw;
+  max-width: 35vw;
 }
 #hero-section h1 {
   color: var(--header-color);
   font-weight: 500;
-  font-size: 32px;
+  font-size: 1.6rem;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -22,14 +22,14 @@
 }
 #hero-section h2 {
   color: var(--header-color);
-  font-size: 22px;
+  font-size: 1.3rem;
   font-weight: 500;
   font-style: italic;
   margin-bottom: 20px;
 }
 #hero-section p {
   color: var(--paragraph-color);
-  font-size: 20px;
+  font-size: 1.1rem;
   font-weight: 400;
   margin-bottom: 40px;
 }
@@ -40,7 +40,7 @@
 }
 #hero-section .action-buttons a {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 15px 10px;
   border-radius: 5px;
 }
@@ -56,18 +56,32 @@
 }
 
 #darkmodeBtn {
-  width: 50px;
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 2vw;
+  right: 5vw;
   padding: 10px;
   background: transparent;
   border: none;
+  cursor: pointer;
 }
 #darkmodeBtn img {
   width: 100%;
 }
 
+@media (max-width: 320px) {
+  #hero-section h1 {
+    font-size: 1.5rem;
+  }
+  #hero-section h2 {
+    font-size: 1.2rem;
+  }
+  #hero-section p {
+    font-size: 1rem;
+  }
+  #hero-section .action-buttons a {
+    font-size: 0.75rem;
+  }
+}
 #about-section .icon-set {
   display: flex;
   justify-content: space-around;
@@ -248,6 +262,8 @@ footer {
 }
 
 body {
+  position: relative;
+  min-width: 320px;
   background-color: var(--bg-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
