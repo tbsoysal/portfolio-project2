@@ -1,4 +1,6 @@
 @use 'herosection';
+@use 'skillssection';
+@use 'quotesection';
 @use 'projectsection';
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
@@ -44,6 +46,7 @@ h2 {
 
 p, a {
   font-size: 1rem;
+  color: var(--paragraph-color);
 }
 
 section {

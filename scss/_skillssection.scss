@@ -1,0 +1,23 @@
+#skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+
+  .skill-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+
+    .skill-textcontent {
+      h2 {
+        color: var(--primary-color);
+        margin-bottom: 15px;
+      }
+      
+      p {
+        color: var(--paragraph-color);
+        line-height: 22px;
+      }
+    }
+  }
+} 

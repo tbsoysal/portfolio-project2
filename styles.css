@@ -65,6 +65,40 @@
   width: 100%;
 }
 
+#skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#skills-section .skill-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+#skills-section .skill-container .skill-textcontent h2 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+#skills-section .skill-container .skill-textcontent p {
+  color: var(--paragraph-color);
+  line-height: 22px;
+}
+
+#quote-section {
+  text-align: center;
+}
+#quote-section p {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+#quote-section p span {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin-inline: 10px;
+}
+
 #projects-section {
   background-color: var(--projects-color);
   display: flex;
@@ -156,6 +190,7 @@ h2 {
 
 p, a {
   font-size: 1rem;
+  color: var(--paragraph-color);
 }
 
 section {
