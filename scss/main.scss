@@ -1,8 +1,5 @@
 @use 'herosection';
-@use 'aboutsection';
 @use 'projectsection';
-@use 'githubsection';
-@use 'contactsection';
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
 
@@ -30,10 +27,23 @@
 }
 
 body {
+  font-size: 16px;
   position: relative;
   min-width: 320px;
   background-color: var(--bg-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p, a {
+  font-size: 1rem;
 }
 
 section {

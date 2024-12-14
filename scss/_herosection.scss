@@ -13,9 +13,6 @@
   h1 {
     color: var(--header-color);
     font-weight: 500;
-    // font-size: 1.6rem;
-    font-size: clamp(1.5rem, 7vw, 2.5rem);
-    font-weight: 500;
     margin-bottom: 20px;
 
     span {
@@ -26,16 +23,16 @@
 
   h2 {
     color: var(--header-color);
-    font-size: clamp(1.2rem, 6vw, 2rem);
-    font-weight: 500;
+    font-weight: 400;
     font-style: italic;
     margin-bottom: 20px;
+    letter-spacing: 2px;
   }
 
   p {
     color: var(--paragraph-color);
-    font-size: clamp(1.1rem, 5vw, 1.5rem);
     font-weight: 400;
+    line-height: 31px;
     margin-bottom: 40px;
   }
 
@@ -46,7 +43,6 @@
 
     a {
       font-weight: 700;
-      font-size: clamp(0.75rem, 3.8vw, 1.5rem);
       padding: 15px 10px;
       border-radius: 5px;
 
