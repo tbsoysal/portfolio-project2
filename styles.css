@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 #hero-section {
   text-align: center;
 }
@@ -75,6 +75,9 @@
   align-items: flex-start;
   gap: 1rem;
 }
+#skills-section .skill-container img {
+  padding-top: 3px;
+}
 #skills-section .skill-container .skill-textcontent h2 {
   color: var(--primary-color);
   margin-bottom: 15px;
@@ -86,19 +89,37 @@
 
 #quote-section {
   text-align: center;
+  padding-inline: 0px;
+  overflow: hidden;
 }
 #quote-section p {
+  padding-inline: 10px;
   font-size: 1.5rem;
-  font-style: italic;
   font-weight: 300;
+  font-style: italic;
   letter-spacing: 2px;
 }
 #quote-section p span {
   color: var(--primary-color);
-  font-size: 2rem;
-  margin-inline: 10px;
+  font-weight: 700;
+}
+#quote-section .icons-container {
+  margin-top: 7rem;
+  width: max-content;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  animation: scroll 15s linear infinite;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-52%);
+  }
+}
 #projects-section {
   background-color: var(--projects-color);
   display: flex;
@@ -194,7 +215,7 @@ p, a {
 }
 
 section {
-  padding: 60px 30px;
+  padding: 60px 20px;
 }
 
 a {
