@@ -135,14 +135,12 @@
   width: 100%;
   margin-bottom: 15px;
 }
-.project h4 {
+.project p {
   font-weight: 400;
-  font-size: clamp(16px, 5vw, 2rem);
   color: #FFF2F2;
 }
-.project h3 {
+.project h2 {
   font-weight: 500;
-  font-size: clamp(22px, 5vw, 2rem);
   color: white;
   margin-bottom: 15px;
 }
@@ -168,6 +166,92 @@
   background-color: transparent;
   border-color: #FFF2F2;
   color: #FFF2F2;
+}
+
+#contact-section {
+  text-align: center;
+  color: var(--paragraph-color);
+}
+#contact-section h2 {
+  font-weight: 300;
+}
+#contact-section p {
+  margin: 2rem 0;
+}
+#contact-section .socialmedia-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#contact-section .socialmedia-links img {
+  width: 1.8rem;
+}
+#contact-section .divider {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  font-size: 1.3rem;
+}
+#contact-section .divider span {
+  display: block;
+  background-color: var(--paragraph-color);
+  opacity: 0.5;
+  width: 40%;
+  height: 1px;
+}
+
+form .input-container {
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+form .input-container input, form .input-container textarea {
+  border: 2px solid black;
+  box-shadow: 0 3px 0 0px black;
+  border-radius: 4px;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  position: relative;
+}
+form .input-container input {
+  width: 100%;
+  height: 2rem;
+  display: block;
+}
+form .input-container input::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+form .input-container textarea {
+  width: 100%;
+}
+form button {
+  border: 2px solid black;
+  box-shadow: 0 3px 0 0px black;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  width: 30%;
+  height: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 3%;
+  font-size: 1rem;
+}
+
+footer {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
 }
 
 :root {
