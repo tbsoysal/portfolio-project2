@@ -76,7 +76,7 @@
   gap: 1rem;
 }
 #skills-section .skill-container img {
-  padding-top: 3px;
+  width: 4rem;
 }
 #skills-section .skill-container .skill-textcontent h2 {
   color: var(--primary-color);
@@ -207,33 +207,32 @@ form .input-container {
   width: 80%;
   margin-inline: auto;
   margin-bottom: 1rem;
+  position: relative;
 }
 form .input-container input, form .input-container textarea {
   border: 2px solid black;
   box-shadow: 0 3px 0 0px black;
   border-radius: 4px;
   outline: none;
-  padding: 0 1rem;
+  padding: 0 2rem;
   font-size: 1rem;
   font-family: inherit;
-  position: relative;
 }
 form .input-container input {
   width: 100%;
   height: 2rem;
   display: block;
 }
-form .input-container input::before {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  background-color: var(--primary-color);
+form .input-container img {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 1.1rem;
 }
 form .input-container textarea {
   width: 100%;
+  padding: 0.5rem;
+  resize: none;
 }
 form button {
   border: 2px solid black;
