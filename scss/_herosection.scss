@@ -75,10 +75,32 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+
   #hero-section {
-    display: flex;
     text-align: left;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    
+    .profilepic img {
+      width: 300px;
+      margin-top: 3rem;
+    }
+
+    .textcontent {
+      margin-top: 3rem;
+
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .action-buttons {
+      justify-content: flex-start;
+    }
   }
 }

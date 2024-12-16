@@ -103,3 +103,17 @@ footer {
   color: white;
   text-align: center;
 }
+
+@media (min-width: 1024px) {
+  #contact-section {
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    form {
+      max-width: 500px;
+    }
+  }
+
+}

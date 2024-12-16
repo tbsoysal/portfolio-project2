@@ -1,11 +1,12 @@
 #skills-section {
   display: flex;
   flex-direction: column;
+  text-align: center;
   gap: 50px;
 
   .skill-container {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 1rem;
 
     img {
@@ -32,6 +33,21 @@
       p {
         line-height: 31px !important;
       }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  #skills-section {
+    gap: 5%;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+
+    .skill-container{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
     }
   }
 }

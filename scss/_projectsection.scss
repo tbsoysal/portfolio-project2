@@ -1,8 +1,12 @@
 #projects-section {
   background-color: var(--projects-color);
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
+  max-width: unset;
+
+  .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
 }
 
 .project {
@@ -55,11 +59,48 @@
 
 @media (min-width: 500px) {
   #projects-section {
-    max-width: unset;
-    align-items: center;
+    .projects-container{
+      max-width: unset;
+      align-items: center;
+    }
   }
 
   .project {
     max-width: 60vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #projects-section {
+    .projects-container{
+      flex-direction: row;
+      justify-content:center;
+      gap: 20px;
+
+      .project {
+        max-width: 300px;
+
+        .buttons-container a {
+          font-size: 14px;
+        }
+      }
+  }
+}
+}
+
+@media (min-width: 1024px) {
+  #projects-section {
+    .projects-container {
+      gap: 5vw;
+
+      .buttons-container a {
+        font-size: 0.9rem !important;
+      }
+
+      .project {
+        max-width: 500px;
+      }
+
+    }
   }
 }

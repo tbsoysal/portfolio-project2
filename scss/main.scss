@@ -18,7 +18,7 @@
   --primary-color: #7286D3;
   --header-color: #FFFFFF;
   --paragraph-color: #E0D1D1;
-  --projects-color: #3E373B;
+  --projects-color: #2E2E2E;
 }
 
 * {
@@ -59,17 +59,20 @@ a {
 }
 
 @media (min-width: 500px) {
-  html {
-    font-size: 19px;
-  }
   section {
     max-width: 600px;
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
   section {
     max-width: 800px;
   }
 }
 
+@media (min-width: 1024px) {
+  section {
+    max-width: 1250px;
+    padding-inline: 50px;
+  }
+}
