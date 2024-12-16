@@ -25,3 +25,13 @@
     }
   }
 } 
+
+@media (min-width: 500px) {
+  #skills-section {
+    .skill-textcontent {
+      p {
+        line-height: 31px !important;
+      }
+    }
+  }
+}

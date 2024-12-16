@@ -7,7 +7,7 @@
   margin-bottom: 20px;
 }
 #hero-section .profilepic img {
-  width: clamp(15vw, 30vw, 12rem);
+  width: clamp(15vw, 30vw, 10rem);
 }
 #hero-section h1 {
   color: var(--header-color);
@@ -87,6 +87,11 @@
   line-height: 22px;
 }
 
+@media (min-width: 500px) {
+  #skills-section .skill-textcontent p {
+    line-height: 31px !important;
+  }
+}
 #quote-section {
   text-align: center;
   padding-inline: 0px;
@@ -146,7 +151,6 @@
   text-align: center;
 }
 .project img {
-  max-width: 600px;
   width: 100%;
   margin-bottom: 15px;
 }
@@ -185,6 +189,10 @@
 @media (min-width: 500px) {
   #projects-section {
     max-width: unset;
+    align-items: center;
+  }
+  .project {
+    max-width: 60vw;
   }
 }
 #contact-section {
@@ -223,6 +231,10 @@
   height: 1px;
 }
 
+form {
+  max-width: 400px;
+  margin-inline: auto;
+}
 form .input-container {
   width: 80%;
   margin-inline: auto;
@@ -301,7 +313,6 @@ footer {
 }
 
 body {
-  font-size: 16px;
   position: relative;
   min-width: 320px;
   background-color: var(--bg-color);
@@ -323,13 +334,21 @@ p, a {
 
 section {
   padding: 60px 20px;
-  max-width: 425px;
   margin-inline: auto;
 }
 
 a {
   display: block;
   text-decoration: none;
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 19px;
+  }
+  section {
+    max-width: 600px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
