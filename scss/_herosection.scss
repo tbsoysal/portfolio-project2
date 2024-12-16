@@ -74,3 +74,11 @@
       width: 100%;
     }
 }
+
+@media (min-width: 800px) {
+  #hero-section {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+  }
+}

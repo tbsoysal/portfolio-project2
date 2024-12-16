@@ -65,6 +65,13 @@
   width: 100%;
 }
 
+@media (min-width: 800px) {
+  #hero-section {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+  }
+}
 #skills-section {
   display: flex;
   flex-direction: column;
@@ -348,6 +355,11 @@ a {
   }
   section {
     max-width: 600px;
+  }
+}
+@media (min-width: 500px) {
+  section {
+    max-width: 800px;
   }
 }
 
