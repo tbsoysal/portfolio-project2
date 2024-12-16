@@ -8,6 +8,7 @@
 
   p {
     margin: 2rem 0;
+    line-height: 31px;
   }
 
   .socialmedia-links {
@@ -49,12 +50,14 @@ form {
 
     input, textarea {
       border: 2px solid black;
-      box-shadow: 0 3px 0 0px black;
+      box-shadow: 0 3px 0 0px var(--primary-color);
       border-radius: 4px;
+      border-color: var(--primary-color);
       outline: none;
       padding: 0 2rem;
       font-size: 1rem;
       font-family: inherit;
+      color: var(--paragraph-color);
     }
     
     input {
@@ -68,6 +71,7 @@ form {
       top: 0.7rem;
       left: 0.5rem;
       width: 1.1rem;
+      color: blue;
     }
 
     textarea {
@@ -78,8 +82,8 @@ form {
   }
   
   button {
-    border: 2px solid black;
-    box-shadow: 0 3px 0 0px black;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 3px 0 0px var(--primary-color);
     border-radius: 4px;
     background-color: var(--primary-color);
     width: 30%;
