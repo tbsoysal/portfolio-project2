@@ -54,3 +54,9 @@
 
   }
 }
+
+@media (min-width: 500px) {
+  #projects-section {
+    max-width: unset;
+  }
+}

@@ -35,3 +35,21 @@
     transform: translateX(-52%);
   }
 }
+
+@media (min-width: 500px) {
+  #quote-section {
+    max-width: unset;
+    padding-inline: 20px;
+  }
+
+  .icons-container {
+    animation: none !important;
+    margin-inline: auto;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
+
+    .duplicatedicons {
+      display: none;
+    }
+  }
+}

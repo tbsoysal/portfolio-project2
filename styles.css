@@ -120,6 +120,21 @@
     transform: translateX(-52%);
   }
 }
+@media (min-width: 500px) {
+  #quote-section {
+    max-width: unset;
+    padding-inline: 20px;
+  }
+  .icons-container {
+    animation: none !important;
+    margin-inline: auto;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
+  }
+  .icons-container .duplicatedicons {
+    display: none;
+  }
+}
 #projects-section {
   background-color: var(--projects-color);
   display: flex;
@@ -167,6 +182,11 @@
   color: #FFF2F2;
 }
 
+@media (min-width: 500px) {
+  #projects-section {
+    max-width: unset;
+  }
+}
 #contact-section {
   text-align: center;
   color: var(--paragraph-color);
