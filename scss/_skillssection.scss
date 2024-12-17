@@ -1,12 +1,11 @@
 #skills-section {
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 50px;
 
   .skill-container {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 1rem;
 
     img {
@@ -43,10 +42,12 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+    text-align: center;
 
     .skill-container{
       display: flex;
       flex-direction: column;
+      align-items: center;
       width: 100%;
     }
   }
