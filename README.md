@@ -15,7 +15,7 @@ A personal portfolio website showcasing my front-end development skills, project
 - **JavaScript** – Interactive features (theme toggle, animations, etc.)
 
 ## Live Demo
-🔗 **GitHub Pages Live Link:** [https://tbsoysal.github.io/portfolio](https://tbsoysal.github.io/portfolio)
+🔗 **GitHub Pages Live Link:** [https://tbsoysal.github.io/portfolio-project2](https://tbsoysal.github.io/portfolio-project2)
 
 ## Installation
 
